@@ -52,19 +52,6 @@ const Contributions = ({ heading, username, length, specfic }) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        // Fetch all repositories (for the purpose of project display)
-        let repoList = [];
-        const response = await axios.get(allReposAPI);
-        repoList = [...response.data.slice(0, length)];
-
-        // Fetch specific repositories
-        for (let repoName of specfic) {
-          const response = await axios.get(`${specficReposAPI}/${repoName}`);
-          repoList.push(response.data);
-        }
-
-        setProjectsArray(repoList);
-
         // Fetch open and merged PRs created by the user
         const prs = await fetchCreatedPRs(username);
         setPrData(prs);
@@ -132,7 +119,7 @@ const Contributions = ({ heading, username, length, specfic }) => {
                 )}
               </>
             ) : (
-              <p className="text-center">No open or merged pull requests found.</p>
+              <p className="text-center">An Error occured :) </p>
             )}
           </Row>
         </Container>
