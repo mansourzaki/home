@@ -9,7 +9,9 @@ const ExperienceCard = ({ data }) => {
   return (
     <Col lg={6} md={12} className="mb-4">
       <div className="experience-card text-center p-4 shadow-sm bg-white rounded">
+        <a href={data.link} target="_blank">
         <img src={data.companylogo} alt="Company Logo" className="mb-3" style={{ height: '80px', width: '80px', objectFit: 'contain' }} />
+        </a>
         <h5 className="mb-1">{data.role}</h5>
         <p className="text-muted">{data.date}</p>
       </div>

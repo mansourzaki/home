@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Mansour",
   middleName: "",
   lastName: "Alhaddad",
-  message: " Passionate about changing the world with technology. ",
+  message: " “𝘔𝘢𝘬𝘦 𝘪𝘵 𝘸𝘰𝘳𝘬, 𝘮𝘢𝘬𝘦 𝘪𝘵 𝘳𝘪𝘨𝘩𝘵, 𝘮𝘢𝘬𝘦 𝘪𝘵 𝘧𝘢𝘴𝘵“",
   icons: [
     {
       image: "fa-github",
@@ -149,16 +149,19 @@ const experiences = {
       role: 'Software Engineer',// Here Add Company Name
       companylogo: require('../assets/img/sukuk-capital.png'),
       date: 'November 2022 – Present',
+      link: 'https://sukuk.sa/',
     },
     {
       role: 'Flutter Developer',
       companylogo: require('../assets/img/syncme.png'),
       date: 'May 2023 – April 2024',
+      link: 'https://syncme.io/',
     },
     {
       role: 'Freelance through Upwork',
       companylogo: require('../assets/img/upwork.png'),
       date: 'August 2022 – November 2024',
+
     },
 
   ]
