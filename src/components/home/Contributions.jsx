@@ -68,7 +68,7 @@ const Contributions = ({ heading, username, length, specfic }) => {
       {/* Open and Merged Pull Requests Section */}
       <Jumbotron fluid id="contributions" className="bg-light m-0">
         <Container>
-          <h2 className="display-4 pb-5 text-center">Open and Merged Pull Requests</h2>
+          <h2 className="display-4 pb-5 text-center">Contributions</h2>
           <Row>
             {prData.openPRs.length > 0 || prData.mergedPRs.length > 0 ? (
               <>
