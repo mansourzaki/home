@@ -1,25 +1,25 @@
-name: Build and deploy Profile to GitHub Pages
+# name: Build and deploy Profile to GitHub Pages
 
-on:
-  push:
-    branches: [ master ]
+# on:
+#   push:
+#     branches: [ master ]
 
-jobs:
-  build-and-deploy: 
-    name: Build and Deploy
-    runs-on: ubuntu-latest
+# jobs:
+#   build-and-deploy: 
+#     name: Build and Deploy
+#     runs-on: ubuntu-latest
 
 
-    steps:
-    - name: Checkout
-      uses: actions/checkout@v2
+#     steps:
+#     - name: Checkout
+#       uses: actions/checkout@v2
 
-    - name: Setup Node.js
-      run: npm install
+#     - name: Setup Node.js
+#       run: npm install
 
-    - name: Deploy
-      run: |
-        git config --global user.name 'Mansour'
-        git config --global user.email 'mansourzaki2000@gmail.com'
-        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-        npm run deploy
+#     - name: Deploy
+#       run: |
+#         git config --global user.name 'Mansour'
+#         git config --global user.email 'mansourzaki2000@gmail.com'
+#         git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+#         npm run deploy
