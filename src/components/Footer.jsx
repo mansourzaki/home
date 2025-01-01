@@ -20,7 +20,7 @@ const Footer = (props) => {
         using <i className="fab fa-react" /> */}
         <p>
           <small className="text-muted">
-          Project forked from and edited from <a
+          Project forked and edited from <a
           rel="noopener"
           href="https://github.com/hashirshoaeb"
           aria-label="My GitHub"
