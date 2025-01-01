@@ -74,7 +74,7 @@ const Contributions = ({ heading, username, length, specfic }) => {
               <>
                 {prData.openPRs.length > 0 && (
                   <div className="col-12 mb-4">
-                    <h4>Open Pull Requests</h4>
+                    <h4>Opened Pull Requests</h4>
                     <ul>
                       {prData.openPRs.map((pr, idx) => (
                         <li key={idx}>
