@@ -158,7 +158,7 @@ const experiences = {
       link: 'https://syncme.io/',
     },
     {
-      role: 'Freelance through Upwork',
+      role: 'Top Rated Plus Freelancer on Upwork',
       companylogo: require('../assets/img/upwork.png'),
       date: 'August 2022 – November 2024',
 
