@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/home/static/css/main.cb29964a.css",
-    "main.js": "/home/static/js/main.474f98f7.js",
+    "main.js": "/home/static/js/main.345eb13b.js",
     "static/js/453.9b1a9f3d.chunk.js": "/home/static/js/453.9b1a9f3d.chunk.js",
     "static/media/mansouralhaddad.jpg": "/home/static/media/mansouralhaddad.bf6de3c9679c5ad62ebd.jpg",
     "static/media/syncme.png": "/home/static/media/syncme.e9e8319add5948877a9e.png",
     "static/media/sukuk-capital.png": "/home/static/media/sukuk-capital.7cf7acb22a5f39b4a636.png",
     "index.html": "/home/index.html",
     "main.cb29964a.css.map": "/home/static/css/main.cb29964a.css.map",
-    "main.474f98f7.js.map": "/home/static/js/main.474f98f7.js.map",
+    "main.345eb13b.js.map": "/home/static/js/main.345eb13b.js.map",
     "453.9b1a9f3d.chunk.js.map": "/home/static/js/453.9b1a9f3d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cb29964a.css",
-    "static/js/main.474f98f7.js"
+    "static/js/main.345eb13b.js"
   ]
 }
