@@ -55,7 +55,7 @@ const about = {
   imageSize: 375,
   message:
     "I'm a Flutter developer with over 4 years of experience, specializing in crafting high-performance, user-centric applications. I have a strong track record of solving complex challenges, integrating third-party services, and building seamless UIs. Passionate about continuous learning and innovation, I thrive in dynamic environments and enjoy contributing to impactful projects.",
-  resume: "https://drive.google.com/file/d/1gmgTqp-i4yiGijSuyJjtp1jjvTEUfSEL/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1saiu2fntonGpezkD-ZiN24P14EP2XH-W/view?usp=sharing",
 };
 
 // PROJECTS SECTION
