@@ -46,7 +46,7 @@ const Home = React.forwardRef((props, ref) => {
           resume={about.resume}
         />
       )}
-      
+
       {contributions.show && (
         <Contributions
           heading={repos.heading}
@@ -90,6 +90,28 @@ const Home = React.forwardRef((props, ref) => {
 
 const App = () => {
   const titleRef = React.useRef();
+  const sendEventToLukeHog = async () => {
+    const event = 'app_started'; // Customize the event as needed
+    const userId = 'test_user'; // Replace with dynamic or actual user ID logic
+
+    try {
+      const response = await fetch('https://api.lukehog.com/event/WBvhNWcby5wIU0b0', {
+        method: 'POST',
+        body: JSON.stringify({ event, userId }),
+      });
+
+      if (!response.ok) {
+        throw new Error(`Error: ${response.status}`);
+      }
+
+      const data = await response.json();
+      console.log('Event sent successfully:', data);
+    } catch (error) {
+      console.error('Failed to send event:', error);
+    }
+  };
+
+  sendEventToLukeHog();
 
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL || "/"}>
